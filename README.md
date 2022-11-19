@@ -57,3 +57,6 @@ We also plot histograms of all the competitive ratios across all experiments, re
 
 This figure clearly shows the superiority of AHDL because most of experiments result in close-to-one competitive ratio. DL's performance
 is also impressing in terms of concentration and the closeness-to-one of its competitive ratios.
+
+However, these two figures cannot illustrate the computational costs of each algorithm. It should be hightlighted that DL is the most efficient one because it only requires to relearn the dual at geometrically increasing time steps while AHDL needs to relearns everytime,
+which is very time-consuming.
